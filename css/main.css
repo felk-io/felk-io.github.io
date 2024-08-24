@@ -1,0 +1,49 @@
+@font-face {
+	font-family: 'Mona Sans';
+	src:
+		url('fonts/Mona-Sans.woff2') format('woff2 supports variations'),
+		url('fonts/Mona-Sans.woff2') format('woff2-variations');
+	font-weight: 200 900;
+	font-stretch: 75% 125%;
+}
+
+:root {
+	background-color: rgb(0, 0, 0);
+	color: rgba(255, 255, 255, 0.9);
+
+	font-family: 'Mona Sans', sans-serif;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	display: flex;
+	margin: 0;
+	min-height: 100vh;
+	min-width: 20em;
+}
+
+#hero {
+	margin-top: 20vh;
+	width: 100%;
+}
+
+.hero-icon {
+	margin: 0 auto;
+	padding-bottom: 1em;
+
+	height: 10em;
+	width: 10em;
+}
+
+.hero-icon > img {
+	border-radius: 1.5em;
+}
+
+.hero-text {
+	padding: 0 1.5em;
+	text-align: center;
+}
